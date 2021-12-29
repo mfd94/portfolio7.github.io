@@ -1,0 +1,127 @@
+html, body {
+  background: rgb(20,20,20);
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+.svg-wrapper {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    margin: 0 auto;
+  width: 320px;  
+}
+
+.svg-wrapper2 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+    margin: 0 auto;
+  width: 320px;  
+}
+.svg-wrapper3 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+  width: 320px;  
+}
+
+.shape {
+  stroke-dasharray: 140 540;
+  stroke-dashoffset: -474;
+  stroke-width: 8px;
+  fill: transparent;
+  stroke: #19f6e8;
+  border-bottom: 10px solid black;
+  transition: stroke-width 5s, stroke-dashoffset 5s, stroke-dasharray 5s;
+}
+.text {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+
+.text2 {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+
+}
+
+.text3 {
+  font-family: 'Roboto Condensed';
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 8px;
+  color: #fff;
+  top: -48px;
+  position: relative;
+}
+
+
+.svg-wrapper:hover .shape {
+  stroke-width: 10px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+.svg-wrapper2:hover .shape {
+  stroke-width: 10px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+.svg-wrapper3:hover .shape {
+  stroke-width: 10px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 760;
+}
+
+
+
+h1{
+  color: white;
+}
+
+.border{
+  border: 10px solid white;
+  width: 500px;
+}
+
+.svg-wrapper{
+  margin-left: 100px ;
+  margin-top: 150px;
+}
+
+.i1{
+  position: absolute;
+  left: 1000px;
+  top: 100px;
+}
+
+a:hover{
+    color: grey;
+}
+
+a:visited{
+  color: green;
+}
+/*-------------------------------------------------------
+  -------------------------------------------------------
+  ------------------javapartie1.css----------------------
+*/
+
+
+
+ul{
+  list-style-type: none;
+}
